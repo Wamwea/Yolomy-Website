@@ -8,9 +8,9 @@ html,body
 }
 div#hero {
 background-color: rgb(248, 233, 214);
-   height: 830px; 
+   height: 800px; 
    padding: 10px;
-   width: 100pc;
+   width: auto;
    position: relative;
    background-image: url(assets/backgrounds/hero.jpg);
    background-repeat: no-repeat;
@@ -30,11 +30,11 @@ div.col-md-1{
     text-align: center;
 }
 
-.img-scroll-down{
-    margin-top: 320px;
-    position: relative;
+.scroll-down-button{
+    margin-top: 500px;
+    width: 100px;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
 @media screen and (max-width:800px){
     .img-scroll-down{
@@ -43,3 +43,37 @@ div.col-md-1{
     }
 }
 
+div#product-row{
+padding: 40px;
+background-color: rgb(198, 191, 165);
+}
+input#products-button{
+background-color: rgb(107, 37, 16);
+color: white;
+padding: 5px;  
+border: none;
+}
+#checkbox{
+left: 8pc;
+}
+.horizontal-line{
+        display: flex; 
+        flex-direction: row;
+        padding: 30px;
+        font-size: 15px;
+        margin-left: auto;
+}
+.horizontal-line::after {
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 2px solid rgb(139, 135, 135); 
+    margin: auto;
+    }
+#product-listings{
+margin-left: 7.5pc;  
+border-right:1px solid black;
+}
+.product{
+ align-content: center;
+border: 2px solid black;
+}
