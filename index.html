@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
    
@@ -34,12 +34,12 @@
         <p>We understand that you need to look good and feel great.<br> It all starts with what you are wearing.</p>
         </p2>
     </div>
-    <div class="scroll-down-button">
-    <img src="assets/mouse_click.png">
+    <div class="scroll-down-button" id="scroll-down-button">
+    <a href="#scroll-to"><img src="assets/mouse_click.png"></a>
     </div>
 </div>
 <!--Product Container-->
-<div class="row " id="product-row">
+<div id="scroll-to"><div class="row " id="product-row">
     <div class="col-md-10" id=checkbox>
         <form>
             <input type="checkbox" id="men-hide"><span>MEN</span> &NonBreakingSpace;
@@ -50,7 +50,7 @@
     <div class="col-md-2",>
         <input id="products-button" type="button" value="SEE ALL PRODUCTS">
     </div>
-</div>
+</div></div>
 
 <!--Listings Contianer-->
 <div class="container-fluid" id="product-listings">
@@ -70,11 +70,32 @@
         <img src="assets/products/tshirt.png">  
     </div>
 </div>
-
+<h6 class="align-right horizontal-line">MEN &NonBreakingSpace;</h6>
+<h6 class="col-sm-1 scrollbar" id="scrollbar"> <>1</h6>
+<div class="row" id="men-listing">
+    <div class="col-md-3 product">
+        <div class="col-md-2     top-right-item">
+            SIZE
+        </div>
+        <img src="assets/products/tshirt.png">  
+    </div>
+    <div class="col-md-3 product">
+        <img src="assets/products/tshirt.png">  
+    </div>
+    <div class="col-md-3 product">
+        <img src="assets/products/tshirt.png">  
+    </div>
+</div>
 </div>
 <!--About Us Container-->
 <div class="container-fluid" id="about-us">
-<p>We are an amazing team of clothing dudes   </p> 
+   <fieldset>
+    <legend style="color: whiTE;">ABOUT US</legend>
+    <p class="bordered-text">This where high-fashion clothing is<br> designed and crafted from
+        the heart by<br>an amazing team of craftsmen and<br>designers who understand what fashion<br>is.</p> 
+   </fieldset>
+    </div>
+
 </div>
 <!--Feed Container-->
 <div class="container-fluid" id="news-feed">
@@ -82,7 +103,7 @@
     "SALE:Buy anything for 45% off. Use the PROMO CODE YOLOMY45 when you buy an item."
 </div>
 <!--Footer Container-->
-<div class="row" id="footer">
+<div class="align-center row" id="footer">
 <div class="col-md-4 "id="closer-text">
     <h2>YOLOMY</h2>
 <p>WE ARE YOLOMY- WE UNDERSTAND<br>
@@ -90,7 +111,22 @@
     PRODUCTS WITH LOVE AND DILIGENCE.</p>
 </div>
 <div class="col-md-4 "id="social-media-handles">
-We are Social   
+<P>We are Social</P>
+<div class="align-middle">
+    <div>
+        <img src="assets/social_icons/g_plus.png">
+        <img src="assets/social_icons/facebook.png">
+        <img src="assets/social_icons/you_tube.png">
+        <img src="assets/social_icons/stumble_upon.png">
+    </div>
+    <div>
+        <img src="assets/social_icons/skype.png">
+        <img src="assets/social_icons/flickr.png">
+        <img src="assets/social_icons/twitter.png">
+        <img src="assets/social_icons/pinterest.png">
+    </div>
+    <P class="footer-note">COPYRIGHT 2015. YOLOMY INC</P>
+</div>   
 </div>
 <div class="col-md-4">
     <p>CREDITS|PRIVACY|ABOUT|CONTACTS<br>

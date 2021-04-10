@@ -42,7 +42,9 @@ div.col-md-1{
         margin-top: 100px;
     }
 }
-
+.scroll-down-button:hover{
+    opacity: 0.5;
+}
 div#product-row{
 padding: 40px;
 background-color: rgb(198, 191, 165);
@@ -76,7 +78,6 @@ border-right:1px solid black;
 .product{
     background-color:rgb(245, 245, 247);
 text-align: center;
-border: 1px solid black;
 width: 150px;
 height: 250px;
 overflow: hidden;
@@ -84,6 +85,9 @@ position: relative;
 margin-top: auto;
 margin-bottom: auto;
 margin-left: 50px;
+}
+.product:hover{
+    border: 4px solid rgb(169, 155, 118);
 }
 #scrollbar{
     color:  rgb(198, 191, 165);
@@ -94,6 +98,7 @@ margin-left: 50px;
     margin-top: 50px;
     background-image: url(assets/backgrounds/about.jpg);
     height: 300px;
+    text-align: center;
 }
 #news-feed{
     position: relative;
@@ -105,8 +110,11 @@ margin-left: 50px;
 }
 #footer{
 padding-top: 50px;
+
 color: white;
 background-color: rgb(65, 65, 65);
+margin-top: auto;
+margin-bottom: auto;
 }
 #closer-text{
     text-align: center;
@@ -114,4 +122,15 @@ background-color: rgb(65, 65, 65);
 }
 #social-media-handles{
     text-align: center;
+}
+.row{
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-note{
+    padding-top: 20px;
+}
+.bordered-text{
+    font-size: 20px;
+    color: white;
 }
