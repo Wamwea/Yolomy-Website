@@ -36,12 +36,7 @@ div.col-md-1{
     margin-left: auto;
     margin-right: auto;
 }
-@media screen and (max-width:800px){
-    .scroll-down-button{
-        position: relative;
-        margin-top: 100px;
-    }
-}
+
 .scroll-down-button:hover{
     opacity: 0.5;
 }
@@ -71,23 +66,82 @@ left: 8pc;
     border-bottom: 2px solid rgb(139, 135, 135); 
     margin: auto;
     }
+
+.horizontal-line2{
+        display: flex; 
+        flex-direction: row;
+        font-size: 15px;
+        margin-left: auto;
+}
+.horizontal-line2::before {
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 2px solid rgb(139, 135, 135); 
+    margin: auto;
+    }
+
+    .scroll-down:hover, .links:hover, input[type=button]:hover{
+        opacity: .7;
+        cursor: pointer;
+    }
 #product-listings{
-margin-left: 7.5pc;  
+margin-left: 8pc;  
 border-right:1px solid black;
+padding-right: 200px;
 }
+
 .product{
-    background-color:rgb(245, 245, 247);
-text-align: center;
-width: 150px;
-height: 250px;
-overflow: hidden;
-position: relative;
-margin-top: auto;
-margin-bottom: auto;
-margin-left: 50px;
+background-color:rgb(245, 245, 247);
+justify-content: center;
+display: flex;
+width: 100pc;
+height: 300px;
+margin: 20px;
+margin-top: 0px;
+padding: auto;
+box-sizing: border-box; 
 }
+.product-image{
+
+margin: auto;
+overflow:  hidden;
+left: 50pc;
+top: 50pc;
+}
+
 .product:hover{
     border: 4px solid rgb(169, 155, 118);
+}
+.top-right-item{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.top-left-item{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.bottom-right-item{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: 500;
+}
+.bottom-left-item{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color:rgb(169, 155, 118);
+    font-weight: 500;
+}
+
+select{
+    background-color:rgb(245, 245, 247);
+    border: none;
+}
+.top-right-item{
+text-align: start;
 }
 #scrollbar{
     color:  rgb(198, 191, 165);
@@ -97,9 +151,29 @@ margin-left: 50px;
 #about-us{
     margin-top: 50px;
     background-image: url(assets/backgrounds/about.jpg);
-    height: 300px;
+    height: 400px;
     text-align: center;
+    
 }
+fieldset.about-text{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    border: solid;
+    border-color: #908361;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+fieldset>legend{
+    text-align:center;
+    display: block;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    margin: 0 0 0 0;
+}   
+
 #news-feed{
     position: relative;
     color: white;
@@ -134,3 +208,11 @@ margin-bottom: auto;
     font-size: 20px;
     color: white;
 }
+.row{
+    width: 100pc;
+}
+input[type='checkbox']{
+    margin: 5px;
+    box-shadow: none;
+    font-size: 2em;
+  }
