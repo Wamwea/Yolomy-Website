@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
@@ -45,18 +45,19 @@
             <input type="checkbox" id="men-checkbox"><span>MEN</span> 
             <input type="checkbox" id="women-checkbox"><span>WOMEN</span> 
             <input type="checkbox" id="children-checkbox"><span>CHILDREN</span>
-       </form>
+       
     </div>
     <div class="col-md-2",>
         <input id="products-button" type="button" value="SEE ALL PRODUCTS">
     </div>
+</form>
 </div></div>
 
 <!--Listings Contianer-->
-<div class="container-fluid" id="product-listings">
-<h6 class="horizontal-line">MEN &NonBreakingSpace;</h6>
+<div class="container" id="product-listings">
+    <div><h6 class="horizontal-line">MEN &NonBreakingSpace;</h6></div>
 <div class="row" id="men-listing">
-    <div class="col-md-3 product">
+    <div class="col-md-4 product">
      
             <div class="top-left-item">            
                 <select name="Size" id="clothing-size">
@@ -89,7 +90,7 @@
             display: inline-block;
           "></div>
             </div>
-        <div class="product-image"><img src="assets/products/tshirt.png">  </div>
+        <img class="product-image"src="assets/products/tshirt.png">  
     
             <div class="bottom-right-item" >
                 5,00£
@@ -98,7 +99,7 @@
                 T-SHIRT
             </div>
         </div>
-        <div class="col-md-3 product">
+        <div class="col-md-4 product">
             
             <div class="top-left-item">            
                 <select name="Size" id="clothing-size">
@@ -109,7 +110,7 @@
                 </select>
                             </div>
            
-            <div class="product-image"><img src="assets/products/pants.png">  </div>
+            <img class="product-image" src="assets/products/pants.png"> 
 
             <div class="bottom-right-item">
                 30,00£
@@ -118,13 +119,13 @@
                 PANTS FORCLAZ
             </div>
         </div>
-        <div class="col-md-3 product">
+        <div class="col-md-4 product">
      
             <div class="top-left-item">            
                 <P style="font-weight:600;">10 LITRE</P>
                             </div>
         
-        <div class="product-image"><img src="assets/products/backpack.png">  </div>
+        <img class="product-image" src="assets/products/backpack.png"> 
     
             <div class="bottom-right-item">
                 60,00£
@@ -136,7 +137,7 @@
     </div>
     <h6 class="horizontal-line2">WOMEN &NonBreakingSpace;</h6>
     <div class="row" id="women-listing">
-        <div class="col-md-3 product">
+        <div class="col-md-4 product">
          
                 <div class="top-left-item">            
                     <select name="Size" id="clothing-size">
@@ -146,7 +147,7 @@
                       <option value="extra large">XL</option>
                     </select> </div>
                
-            <div class="product-image"><img src="assets/products/giacket.png">  </div>
+          <img class="product-image" src="assets/products/giacket.png"> 
         
                 <div class="bottom-right-item">
                     60,00£
@@ -155,7 +156,7 @@
                     GIACKET
                 </div>
             </div>
-            <div class="col-md-3 product">
+            <div class="col-md-4 product">
                 
                 <div class="top-left-item">            
                     <select name="Size" id="clothing-size">
@@ -166,7 +167,7 @@
                     </select>
                                 </div>
                
-                <div class="product-image"><img src="assets/products/trekkingshoes.png">  </div>
+                <img class="product-image" src="assets/products/trekkingshoes.png">
     
                 <div class="bottom-right-item">
                     80,00£
@@ -175,7 +176,7 @@
                     TREKKING SHOES
                 </div>
             </div>
-            <div class="col-md-3 product">
+            <div class="col-md-4 product">
          
                 <div class="top-left-item">            
                     <select name="Size" id="clothing-size">
@@ -193,7 +194,7 @@
                     display: inline-block;
                   ">
                 </div>
-            <div class="product-image"><img src="assets/products/tshirt_ladies.png">  </div>
+            <img class="product-image" src="assets/products/tshirt_ladies.png"> 
         
                 <div class="bottom-right-item">
                     20,00£
@@ -206,10 +207,11 @@
 </div>
 
 
+
    
 </div>
 <!--About Us Container-->
-<div class="container-fluid" id="about-us">
+<div class="aboutus" id="about-us">
    <fieldset class="about-text">
     <legend >ABOUT US</legend>
     <p class="bordered-text">This where high-fashion clothing is<br> designed and crafted from
@@ -224,35 +226,38 @@
     "SALE:Buy anything for 45% off. Use the PROMO CODE YOLOMY45 when you buy an item."
 </div>
 <!--Footer Container-->
-<div class="align-center row" id="footer">
-<div class="col-md-4 "id="closer-text">
-    <h2>YOLOMY</h2>
-<p>WE ARE YOLOMY- WE UNDERSTAND<br>
-    FASHION AND STYLE. WE CRAFT OUR<br>
-    PRODUCTS WITH LOVE AND DILIGENCE.</p>
-</div>
-<div class="col-md-4 "id="social-media-handles">
-<P>We are Social</P>
-<div class="align-middle" >
-    <div style="margin-bottom: 10px;">
-        <img src="assets/social_icons/g_plus.png">
-        <img src="assets/social_icons/facebook.png">
-        <img src="assets/social_icons/you_tube.png">
-        <img src="assets/social_icons/stumble_upon.png">
-    </div>
-    <div>
-        <img src="assets/social_icons/skype.png">
-        <img src="assets/social_icons/flickr.png">
-        <img src="assets/social_icons/twitter.png">
-        <img src="assets/social_icons/pinterest.png">
-    </div>
-    <P class="footer-note">COPYRIGHT 2015. YOLOMY INC</P>
-</div>   
-</div>
-<div class="col-md-4">
-    <p><span>CREDITS| PRIVACY| ABOUT| CONTACTS</span><br>
-        YOLOMY:We mean fashion</p>
-</div>
+<div class="container-fluid">
+    <div class="align-center row" id="footer">
+        <div class="col-md-4 "id="closer-text">
+            <h2>YOLOMY</h2>
+        <p>WE ARE YOLOMY- WE UNDERSTAND<br>
+            FASHION AND STYLE. WE CRAFT OUR<br>
+            PRODUCTS WITH LOVE AND DILIGENCE.</p>
+        </div>
+        <div class="col-md-4 "id="social-media-handles">
+        <P>We are Social</P>
+        <div class="align-middle" >
+            <div style="margin-bottom: 10px;">
+                <img src="assets/social_icons/g_plus.png">
+                <img src="assets/social_icons/facebook.png">
+                <img src="assets/social_icons/you_tube.png">
+                <img src="assets/social_icons/stumble_upon.png">
+            </div>
+            <div>
+                <img src="assets/social_icons/skype.png">
+                <img src="assets/social_icons/flickr.png">
+                <img src="assets/social_icons/twitter.png">
+                <img src="assets/social_icons/pinterest.png">
+            </div>
+            <P class="footer-note">COPYRIGHT 2015. YOLOMY INC</P>
+        </div>   
+        </div>
+        <div class="col-md-4">
+            <p><span>CREDITS| PRIVACY| ABOUT| CONTACTS</span><br>
+                YOLOMY:We mean fashion</p>
+        </div>
+        </div>
+
 </div>
 </body>
 </html>
